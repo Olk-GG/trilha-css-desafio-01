@@ -15,7 +15,12 @@
       </div>
       <h1>Trilha de CSS da DIO</h1>
       <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
-      <button>Quero me inscrever</button>
+      <button id="link">Quero me inscrever</button>
+      <script>
+        document.getElementById("link").onclick = function() {
+            window.open("https://web.dio.me/track/formacao-css-web-developer", "_blank");
+        };
+      </script>
     </div>
   </header>
   <main>
